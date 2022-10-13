@@ -1,0 +1,42 @@
+.flex-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.flex-item {
+	padding: 5px;
+	width: 200px;
+  }
+
+  .flex-item-middle {
+	width: auto;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .form {
+	display: inline-block !important;
+  }
+
+.input {
+	text-align: left;
+}
+
+.input-warning {
+	text-align: left;
+	border: 1px solid red !important;
+}
+
+.label {
+	margin-left: 5px;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
+.message {
+	margin: 0 auto;
+    color: red;
+}
